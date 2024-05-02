@@ -1,0 +1,61 @@
+// fonts
+$font-family-text:    Chakra Petch, sans-serif;
+$font-family-heading: Kode Mono, monospace;
+
+// font weights
+$font-weight-light:  300;
+$font-weight-normal: 400;
+$font-weight-bold:   700;
+
+// font sizes
+$font-size-base:    1.20rem;
+$font-size-h6:      $font-size-base + 0.10;
+$font-size-h5:      $font-size-h6 + 0.10;
+$font-size-h4:      $font-size-h5 + 0.10;
+$font-size-h3:      $font-size-h4 + 0.10;
+$font-size-h2:      $font-size-h3 + 0.10;
+$font-size-h1:      $font-size-h2 + 0.10;
+$font-size-small:   $font-size-base - 0.10;
+$font-size-smaller: $font-size-small - 0.10;
+
+// line heights
+$line-height-none:    0;
+$line-height-base:    1.00;
+$line-height-text:    1.40;
+$line-height-heading: 1.20;
+
+// spaces
+$space-base:            1.00rem;
+$space-header-visible:  20.00rem;
+$space-header-hidden:  -20.00rem;
+$space-inner-xs:        0.30rem;
+$space-inner-sm:        0.40rem;
+$space-inner-sl:        0.60rem;
+$space-inner-md:        0.80rem;
+$space-inner-lg:        1.50rem;
+$space-inner-xl:        2.00rem;
+
+// buttons
+$button-radius: 2.80rem;
+
+// logo
+$logo-radius: 50%;
+
+// corners
+$corner-radius-sm: 2px;
+$corner-radius-md: 5px;
+$corner-radius-lg: 10px;
+
+// colors
+$color-background-page-light:    #ffffff;
+$color-background-page-dark:     #01060e;
+$color-background-section-light: darken($color-background-page-light, 2%);
+$color-background-section-dark:  lighten($color-background-page-dark, 2%);
+$color-text-normal-light:        #272829;
+$color-text-normal-dark:         #f5f5f5;
+$color-text-heading-light:       #00396e;
+$color-text-heading-dark:        lighten($color-text-heading-light, 50%);
+$color-text-header-nav:          #b6b7c0;
+$color-accent-header:            #2c2f3f;
+$color-link-default:             #23a418;
+$color-link-hover:               lighten($color-link-default, 10%);
