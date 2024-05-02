@@ -1,3 +1,6 @@
+<?php
+ob_start();
+?>
 <!DOCTYPE html>
 <html lang="<?= $language ?>">
 <head>
@@ -16,3 +19,7 @@
     <link rel="icon" href="/favicon.ico">
 </head>
 <body>
+
+<?php
+$fileHead = ob_get_contents();
+ob_end_clean();
