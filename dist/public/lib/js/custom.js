@@ -31,15 +31,21 @@
         $('#cookie-notice').fadeOut();
     };
 
-    $(document).ready(function() {
+    const initCookieNotice = () => {
         if (getCookie('cookie_notice_accepted') !== 'true') {
             $('#cookie-notice').show();
+        } else {
+            $('#cookie-notice').hide();
         }
 
         $('#cookie-accept').on('click', function() {
             setCookie('cookie_notice_accepted', 'true', 9);
             hideCookieNotice();
         });
+    };
+
+    $(document).ready(function() {
+        initCookieNotice();
     });
 
 })(jQuery);
