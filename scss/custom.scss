@@ -8,12 +8,16 @@
 @import "partials/scss-variables";
 @import "partials/css-variables";
 
+// parts
+@import "partials/base";
+@import "partials/mobile-nav";
+@import "partials/header";
 
 
 
-
-
+// cookie notice
 #cookie-notice {
+    display: none;
     position: fixed;
     bottom: 0;
     left: 0;

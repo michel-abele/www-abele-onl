@@ -1,0 +1,179 @@
+// header
+#header {
+    position: fixed;
+    top: 0;
+    left: var(--cs-space-header-hidden);
+    bottom: 0;
+    z-index: 9997;
+    width: var(--cs-space-header-visible);
+    padding: 0 var(--cs-space-base);
+    background-color: var(--cs-color-background-page-dark);
+    overflow-y: auto;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
+}
+
+@media (min-width: 1199px) {
+    #header {
+        left: 0;
+    }
+}
+
+// profile
+#profile {
+
+    img {
+        display: block;
+        width: 9.00rem;
+        margin: var(--cs-space-base) auto;
+        border: var(--cs-space-inner-sl) solid var(--cs-color-accent-header);
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: var(--cs-font-size-h3);
+        font-weight: 600;
+        text-align: center;
+        text-align-last: center;
+
+        > a {
+            color: var(--cs-color-text-normal-dark);
+
+            &:hover {
+                color: var(--cs-color-link-hover);
+                text-decoration: none;
+              }
+        }
+    }
+}
+
+// social links
+#social-links {
+    
+    a {
+        display: inline-block;
+        width: var(--cs-button-radius);
+        height: var(--cs-button-radius);
+        margin-right: var(--cs-space-inner-xs);
+        padding: var(--cs-space-inner-sl) 0;
+        font-size: var(--cs-font-size-h2);
+        color: var(--cs-color-text-normal-dark);
+        line-height: 1.00rem;
+        text-align: center;
+        background-color: var(--cs-color-accent-header);
+        border-radius: var(--cs-logo-radius);
+        transition: 0.3s;
+
+        &:hover {
+            color: var(--cs-color-background-page-dark);
+            text-decoration: none;
+            background-color: var(--cs-color-link-hover);
+        }
+    }
+}
+
+// navbar
+#navbar {
+    padding: var(--space-inner-xl) 0 0;
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    > ul {
+
+        > li {
+            position: relative;
+            line-height: var(--cs-line-height-base);
+            white-space: nowrap;
+
+            &:hover {
+
+                > ul {
+                    color: var(--cs-color-text-header-nav);
+                    text-decoration: none;
+                }
+
+                > a {
+                    color: var(--cs-color-text-header-nav);
+                    text-decoration: none;
+
+                    i {
+                        color: var(--cs-color-link-hover);
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        display: flex;
+        margin-bottom: var(--cs-space-inner-sm);
+        padding: var(--cs-space-inner-xs) var(--cs-space-base);
+        align-items: center;
+        font-size: var(--cs-font-size-base);
+        color: var(--cs-color-text-header-nav);
+        transition: 0.3s;
+
+        &:focus {
+            display: flex;
+            margin-bottom: var(--cs-space-inner-sm);
+            padding: var(--cs-space-inner-xs) var(--cs-space-base);
+            align-items: center;
+            font-size: var(--cs-font-size-base);
+            color: var(--cs-color-text-header-nav);
+            transition: 0.3s;
+
+            i {
+                padding-right: var(--´cs-space-inner-sl);
+                font-size: var(--cs-font-size-h3);
+                color: var(--cs-color-text-header-nav);
+            }
+        }
+
+        i {
+            padding-right: var(--cs-space-inner-sl);
+            font-size: var(--cs-font-size-h3);
+            color: var(--cs-color-text-header-nav);
+        }
+
+        span {
+            display: inline-table;
+            margin-top: var(--cs-space-inner-sl);
+            padding-bottom: var(--cs-space-inner-sm);
+            border-bottom: 2px solid transparent;
+        }
+
+        &:hover {
+            color: var(--cs-color-link-hover);
+            text-decoration: none;
+
+            i {
+                color: var(--cs-color-link-hover);
+            }
+
+            span {
+                border-bottom: 2px solid var(--cs-color-link-hover);
+            }
+        }
+
+        &.active,
+        &.active:focus {
+            color: var(--cs-color-text-header-nav);
+            text-decoration: none;
+
+            i {
+                color: var(--cs-color-link-hover);
+            }
+
+            span {
+                border-bottom: 2px solid var(--cs-color-link-hover);
+            }
+        }
+
+
+    }
+}

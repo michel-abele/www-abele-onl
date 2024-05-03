@@ -1,0 +1,34 @@
+body {
+    font-family: var(--cs-font-family-text);
+    font-weight: var(--cs-font-weight-normal);
+    font-size: var(--cs-font-size-base);
+    color: var(--cs-color-text-normal);
+    line-height: 0;
+    background-color: var(--cs-color-background-page);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--cs-font-family-heading);
+    font-weight: var(--cs-font-weight-bold);
+    line-height: var(--cs-line-height-heading);
+    color: var(--cs-color-text-heading);
+    hyphens: auto;
+}
+
+p,
+li {
+    font-size: var(--cs-font-size-base);
+    line-height: var(--cs-line-height-text);
+    hyphens: auto;
+}
+
+a {
+    color: var(--cs-color-link-default);
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+        color: var(--cs-color-link-hover);
+        text-decoration: underline;
+    }
+}

@@ -3,64 +3,70 @@
 [data-bs-theme=light] {
 
     // fonts
-    --cs-font-family-text: ${font-family-text};
-    --cs-font-family-heading: ${font-family-heading};
+    --cs-font-family-text: #{$font-family-text};
+    --cs-font-family-heading: #{$font-family-heading};
 
     // font weights
-    --cs-font-weight-light: ${font-weight-light};
-    --cs-font-weight-normal: ${font-weight-normal};
-    --cs-font-weight-bold: ${font-weight-bold};
+    --cs-font-weight-light: #{$font-weight-light};
+    --cs-font-weight-normal: #{$font-weight-normal};
+    --cs-font-weight-bold: #{$font-weight-bold};
 
     // font sizes
-    --cs-font-size-base: ${font-size-base};
-    --cs-font-size-h6: ${font-size-h6};
-    --cs-font-size-h5: ${font-size-h5};
-    --cs-font-size-h4: ${font-size-h4};
-    --cs-font-size-h3: ${font-size-h3};
-    --cs-font-size-h2: ${font-size-h2};
-    --cs-font-size-h1: ${font-size-h1};
-    --cs-font-size-small: ${font-size-small};
-    --cs-font-size-smaller: ${font-size-smaller};
+    --cs-font-size-base: #{$font-size-base};
+    --cs-font-size-h6: #{$font-size-h6};
+    --cs-font-size-h5: #{$font-size-h5};
+    --cs-font-size-h4: #{$font-size-h4};
+    --cs-font-size-h3: #{$font-size-h3};
+    --cs-font-size-h2: #{$font-size-h2};
+    --cs-font-size-h1: #{$font-size-h1};
+    --cs-font-size-small: #{$font-size-small};
+    --cs-font-size-smaller: #{$font-size-smaller};
 
     // line heights
-    --cs-line-height-none: ${line-height-none};
-    --cs-line-height-base: ${line-height-base};
-    --cs-line-height-text: ${line-height-text};
-    --cs-line-height-heading: ${line-height-heading};
+    --cs-line-height-none: #{$line-height-none};
+    --cs-line-height-base: #{$line-height-base};
+    --cs-line-height-text: #{$line-height-text};
+    --cs-line-height-heading: #{$line-height-heading};
 
     // spaces
-    --cs-space-base: ${space-base};
-    --cs-space-header-visible: ${space-header-visible};
-    --cs-space-header-hidden: ${space-header-hidden};
-    --cs-space-inner-xs: ${space-inner-xs};
-    --cs-space-inner-sm: ${space-inner-sm};
-    --cs-space-inner-sl: ${space-inner-sl};
-    --cs-space-inner-md: ${space-inner-md};
-    --cs-space-inner-lg: ${space-inner-lg};
-    --cs-space-inner-xl: ${space-inner-xl};
+    --cs-space-base: #{$space-base};
+    --cs-space-header-visible: #{$space-header-visible};
+    --cs-space-header-hidden: #{$space-header-hidden};
+    --cs-space-inner-xs: #{$space-inner-xs};
+    --cs-space-inner-sm: #{$space-inner-sm};
+    --cs-space-inner-sl: #{$space-inner-sl};
+    --cs-space-inner-md: #{$space-inner-md};
+    --cs-space-inner-lg: #{$space-inner-lg};
+    --cs-space-inner-xl: #{$space-inner-xl};
 
     // buttons
-    --cs-button-radius: ${button-radius};
+    --cs-button-radius: #{$button-radius};
 
     // logo
-    --cs-logo-radius: ${logo-radius};
+    --cs-logo-radius: #{$logo-radius};
 
     // corners
-    --cs-corner-radius-sm: ${corner-radius-sm};
-    --cs-corner-radius-md: ${corner-radius-md};
-    --cs-corner-radius-lg: ${corner-radius-lg};
+    --cs-corner-radius-sm: #{$corner-radius-sm};
+    --cs-corner-radius-md: #{$corner-radius-md};
+    --cs-corner-radius-lg: #{$corner-radius-lg};
 
     // colors global
-    --cs-color-text-header-nav: ${color-text-header-nav};
-    --cs-color-accent-header: ${color-accent-header};
-    --cs-color-link-default: ${color-link-default};
-    --cs-color-link-hover: ${color-link-hover};
+    --cs-color-text-header-nav: #{$color-text-header-nav};
+    --cs-color-accent-header: #{$color-accent-header};
+    --cs-color-link-default: #{$color-link-default};
+    --cs-color-link-hover: #{$color-link-hover};
 
     // colors light mode
-    --cs-color-background-page: ${color-background-page-light};
-    --cs-color-background-section: ${color-background-section-light};
-    --cs-color-text-normal: ${color-text-normal-light};
-    --cs-color-text-heading: ${color-text-heading-light};
+    --cs-color-background-page: #{$color-background-page-light};
+    --cs-color-background-section: #{$color-background-section-light};
+    --cs-color-text-normal: #{$color-text-normal-light};
+    --cs-color-text-heading: #{$color-text-heading-light};
+
+    // colors dark mode
+    --cs-color-background-page-dark: #{$color-background-page-dark};
+    --cs-color-background-section-dark: #{$color-background-section-dark};
+    --cs-color-text-normal-dark: #{$color-text-normal-dark};
+    --cs-color-text-heading-dark: #{$color-text-heading-dark};
     
 }
 
@@ -68,8 +74,8 @@
 [data-bs-theme=dark] {
 
     // colors dark mode
-    --cs-color-background-page: ${color-background-page-dark};
-    --cs-color-background-section: ${color-background-section-dark};
-    --cs-color-text-normal: ${color-text-normal-dark};
-    --cs-color-text-heading: ${color-text-heading-dark};
+    --cs-color-background-page: #{$color-background-page-dark};
+    --cs-color-background-section: #{$color-background-section-dark};
+    --cs-color-text-normal: #{$color-text-normal-dark};
+    --cs-color-text-heading: #{$color-text-heading-dark};
 }

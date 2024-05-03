@@ -2,7 +2,19 @@
 ob_start();
 ?>
 
-    <div id="cookie-notice" class="alert alert-info" style="display: none;">
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Michel Abele</span></strong>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" id="back-to-top" class="d-flex align-items-center justify-content-center"><i class="bi-before bi-before-arrow-up-short"></i></a>
+
+    <div id="cookie-notice" class="alert alert-info">
         <div class="container">
             <p>Ich und Drittanbieter die ich nutze verwenden Cookies, um Dir das beste Erlebnis auf meiner Webseite zu bieten. Durch die Nutzung meiner Webseite stimmst Du der Verwendung von Cookies zu.</p>
             <button id="cookie-accept" class="btn btn-primary">Verstanden</button>
@@ -11,7 +23,11 @@ ob_start();
 
     <!-- JavaScript -->
     <script src="/lib/js/jquery.js"></script>
+    <script src="/lib/js/aos.js"></script>
     <script src="/lib/js/bootstrap.bundle.js"></script>
+    <script src="/lib/js/jquery.waypoints.js"></script>
+    <script src="/lib/js/purecounter_vanilla.js"></script>
+    <script src="/lib/js/typed.umd.js"></script>
     <script src="/lib/js/custom.js"></script>
 
 </body>
