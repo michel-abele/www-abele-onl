@@ -34,8 +34,6 @@
     const initCookieNotice = () => {
         if (getCookie('cookie_notice_accepted') !== 'true') {
             $('#cookie-notice').show();
-        } else {
-            $('#cookie-notice').hide();
         }
 
         $('#cookie-accept').on('click', function() {
