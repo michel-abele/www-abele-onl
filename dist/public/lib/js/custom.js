@@ -27,6 +27,10 @@
         return null;
     };
 
+    const hideCookieNotice = () => {
+        $('#cookie-notice').fadeOut();
+    };
+
     $(document).ready(function() {
         if (getCookie('cookie_notice_accepted') !== 'true') {
             $('#cookie-notice').show();
@@ -34,7 +38,7 @@
 
         $('#cookie-accept').on('click', function() {
             setCookie('cookie_notice_accepted', 'true', 9);
-            $('#cookie-notice').hide();
+            hideCookieNotice();
         });
     });
 
