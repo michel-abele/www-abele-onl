@@ -47,7 +47,35 @@ section {
 
 // about
 #about {
+    .content {
+        ul {
+            list-style: none;
+            padding: 0;
 
+            li {
+                margin-bottom: var(--cs-space-inner-md);
+                display: flex;
+                align-items: center;
+
+                strong {
+                    margin-right: var(--cs-space-inner-sl);
+                }
+
+                i {
+                    margin-right: var(--cs-space-inner-xs);
+                    font-size: 1rem;
+                    line-height: 0;
+                    color: var(--cs-color-link-default);
+                }
+
+                p {
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // facts
