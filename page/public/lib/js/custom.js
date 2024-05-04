@@ -61,9 +61,8 @@
             const section = $(hash);
             if (!section.length) return;
             if (position >= section.offset().top && position <= (section.offset().top + section.outerHeight())) {
+                $('#navbar .scrollto').removeClass('active');
                 $(this).addClass('active');
-            } else {
-                $(this).removeClass('active');
             }
         });
     };
