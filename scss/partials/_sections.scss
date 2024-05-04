@@ -1,0 +1,91 @@
+// global
+section {
+    padding: var(--cs-space-inner-xl) 0;
+    overflow: hidden;
+
+    .justify {
+        text-align: justify;
+    }
+
+    &.background {
+        background-color: var(--cs-color-background-section);
+    }
+
+    .container,
+    .container-fluid {
+        padding-left: var(--cs-space-base);
+        padding-right: var(--cs-space-base);
+
+        > header {
+            margin-bottom: var(--cs-space-inner-md);
+            padding-bottom: var(--cs-space-inner-md);
+
+            h2 {
+                position: relative;
+                margin-bottom: var(--cs-space-inner-sl);
+                padding-bottom: var(--cs-space-inner-sl);
+                color: var(--cs-color-text-heading);
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    display: block;
+                    width: 4.00rem;
+                    height: var(--cs-space-inner-xs);
+                    background-color: var(--cs-color-link-default);
+                }
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// about
+#about {
+
+}
+
+// facts
+#facts {
+
+}
+
+// certificates
+#certificates {
+
+}
+
+// skills
+#skills {
+
+}
+
+// resume
+#resume {
+
+}
+
+// github
+#github {
+
+}
+
+// websites
+#websites {
+
+}
+
+// games
+#games {
+
+}
+
+// contact
+#contact {
+
+}
