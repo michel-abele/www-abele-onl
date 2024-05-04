@@ -65,7 +65,7 @@ ob_start();
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="hero-container" data-aos="fade-in">
             <h1>Michel Abele</h1>
-            <p><span class="typed" data-typed-items="<? implode(',', $typed) ?>"></span></p>
+            <p><span class="typed" data-typed-items="<? echo implode(',', $typed) ?>"></span></p>
         </div>
     </section>
 

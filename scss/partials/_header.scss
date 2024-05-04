@@ -25,7 +25,7 @@
     img {
         display: block;
         width: 9.00rem;
-        margin: var(--cs-space-base) auto;
+        margin: var(--cs-space-inner-lg) auto var(--cs-space-base);
         border: var(--cs-space-inner-sl) solid var(--cs-color-accent-header);
     }
 
@@ -73,9 +73,19 @@
     }
 }
 
+@media (min-width: 1199px) {
+    #social-links {
+        a {
+            width: var(--cs-button-radius-sm);
+            height: var(--cs-button-radius-sm);
+            padding: var(--cs-space-inner-xs) 0;
+        }
+    }
+}
+
 // navbar
 #navbar {
-    padding: var(--space-inner-xl) 0 0;
+    padding: var(--cs-space-inner-xl) 0 0;
 
     * {
         margin: 0;

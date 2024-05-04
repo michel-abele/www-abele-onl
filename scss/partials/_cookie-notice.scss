@@ -1,0 +1,15 @@
+// cookie notice
+#cookie-notice {
+    display: none;
+    position: fixed;
+    bottom: var(--cs-space-base);
+    left: var(--cs-space-base);
+    right: var(--cs-space-base);
+    z-index: 9999;
+    width: 100%;
+    margin: 0;
+
+    button {
+        font-family: var(--cs-font-family-text);
+    }
+}
