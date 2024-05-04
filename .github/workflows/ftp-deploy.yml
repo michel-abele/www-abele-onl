@@ -21,6 +21,6 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftps
         port: ${{ secrets.SFTP_PORT }}
-        local-dir: ./dist/
+        local-dir: ./page/
         server-dir: ${{ secrets.FTP_PATH }}
         #dangerous-clean-slate: true
