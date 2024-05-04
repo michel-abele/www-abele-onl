@@ -37,7 +37,7 @@ ob_start();
                 </div>
             </div>
 
-            <nav id="navbar" class="navbar">
+            <nav id="navbar">
                 <ul>
                     <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-before-n-home"></i> <span><?= $navbar['start'] ?></span></a></li>
 

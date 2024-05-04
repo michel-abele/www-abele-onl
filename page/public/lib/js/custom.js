@@ -54,15 +54,16 @@
 
     // functions for handling the scroll event
     const navBarLinksActive = () => {
-        const position = $(window).scrollTop() + 200;
-        $('#navbar .scrollto').each(function() {
-            const hash = $(this).attr('hash');
-            if (!hash) return;
-            const section = $(hash);
-            if (!section.length) return;
-            if (position >= section.offset().top && position <= (section.offset().top + section.outerHeight())) {
-                $('#navbar .scrollto').removeClass('active');
-                $(this).addClass('active');
+        const scrollDistance = $(window).scrollTop();
+        $('section').each(function() {
+            const hash = $(this).attr('id');
+            const navLink = $('#navbar .scrollto[href="#' + hash + '"]');
+            const sectionTop = $(this).offset().top - 100;
+            const sectionHeight = $(this).outerHeight();
+            if (scrollDistance >= sectionTop && scrollDistance < sectionTop + sectionHeight) {
+                navLink.addClass('active');
+            } else {
+                navLink.removeClass('active');
             }
         });
     };
