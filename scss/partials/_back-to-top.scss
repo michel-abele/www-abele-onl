@@ -1,0 +1,32 @@
+#back-to-top {
+    position: fixed;
+    right: var(--cs-space-base);
+    bottom: var(--cs-space-base);
+    z-index: 9996;
+    width: var(--cs-button-radius);
+    height: var(--cs-button-radius);
+    background-color: var(--cs-color-background-page-dark);
+    border-radius: var(--cs-logo-radius);
+    transition: all 0.4s;
+    opacity: 0;
+    visibility: hidden;
+
+    > i {
+        font-size: var(--cs-font-size-h3);
+        color: var(--cs-color-text-normal);
+        line-height: 0;
+    }
+
+    &:hover {
+        background-color: var(--cs-color-link-hover);
+
+        > i {
+            color: var(--cs-color-background-page-dark);
+        }
+    }
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}

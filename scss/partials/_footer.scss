@@ -1,0 +1,28 @@
+#footer {
+    position: static;
+    width: auto;
+    padding: var(--cs-space-base);
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    font-size: var(--cs-font-size-smaller);
+    color: var(--cs-color-text-normal-dark);
+    background-color: var(--cs-color-background-page-dark);
+
+    .copyright {
+        text-align: center;
+
+        .credits {
+            padding-top: var(--cs-space-inner-sm);
+            font-size: var(--cs-font-size-small);
+            color: var(--cs-color-text-normal-dark);
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #footer {
+        width: var(--cs-space-header-visible);
+        position: fixed;
+    }
+}

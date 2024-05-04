@@ -1,0 +1,9 @@
+#main {
+    margin-left: 0;
+  }
+
+@media (min-width: 1199px) {
+    #main {
+        margin-left: var(--cs-space-header-visible);
+    }
+}
