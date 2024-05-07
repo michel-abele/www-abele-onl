@@ -109,6 +109,10 @@ section {
             color: var(--cs-color-text-heading);
             font-weight: var(--cs-font-weight-bold);
         }
+
+        .counter-text {
+            hyphens: auto;
+        }
     }
 }
 

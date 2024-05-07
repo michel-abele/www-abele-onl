@@ -40,7 +40,7 @@ ob_start();
 
         <section id="about">
             <div class="container">
-                <header data-aos="zoom-in">
+                <header data-aos="fade-left">
                     <h2>Über mich</h2>
                     <p class="mb-2 justify">Als ausgebildeter Informatiker und Speditionskaufmann schlägt mein Herz gleichermaßen für beide Berufe. Die Verbindung zwischen diesen scheinbar unterschiedlichen Bereichen fasziniert mich, da sie Gemeinsamkeiten aufweisen, die oft übersehen werden.</p>
                     <p class="mb-2 justify">In beiden Berufen steht der reibungslose Transport im Mittelpunkt. Als Informatiker sorge ich dafür, dass Daten sicher und effizient von einem Punkt zum anderen gelangen. In ähnlicher Weise kümmere ich mich als Speditionskaufmann darum, dass Waren termingerecht und unversehrt an ihr Ziel kommen.</p>
@@ -69,7 +69,7 @@ ob_start();
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-up-left">
                         <p class="mb-2 justify">Als jemand, der hin und wieder auf der Suche nach neuen beruflichen Möglichkeiten ist, möchte ich auf meinen Verfügbarkeitsstatus für den Arbeitsmarkt hinweisen. Ich bin gleichermaßen an meinen beiden Berufen interessiert und stehe Ihnen gerne bereichsübergreifend zur Verfügung.</p>
                         <p class="mb-2 justify">Gleichzeitig bin ich auch als Freelancer tätig und suche stets nach spannenden Projekten, bei denen ich meine Fähigkeiten und Erfahrungen einbringen kann.</p>
                         <p class="justify">Wenn Sie an einer Zusammenarbeit interessiert sind oder weitere Informationen benötigen, zögern Sie nicht, mich zu kontaktieren.</p>
@@ -80,9 +80,9 @@ ob_start();
 
     <section id="facts">
         <div class="container">
-            <header>
+            <header data-aos="fade-left">
                 <h2>Fakten</h2>
-                <p class="justify" data-aos="flip-up">In meiner beruflichen Laufbahn haben sich einige Daten angesammelt. Im Folgenden finden Sie eine kleine Auswahl genauer, gerundeter und geschätzter Werte.</p>
+                <p class="justify">In meiner beruflichen Laufbahn haben sich einige Daten angesammelt. Im Folgenden finden Sie eine kleine Auswahl genauer, gerundeter und geschätzter Werte.</p>
             </header>
 
             <div class="row no-gutters">
@@ -134,7 +134,7 @@ ob_start();
                 <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="0">
                     <div class="count-box">
                         <p>
-                            <i class="bi-before bi-before-headset"></i>
+                            <i class="bi-before bi-before-gear"></i>
                             <span class="counter-prefix">&gt;</span>
                             <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>
                             <span class="counter-unit">t</span><br>
@@ -184,11 +184,39 @@ ob_start();
 
     <section id="certificates">
         <div class="container">
+            <header>
+                <h2>Zertifikate</h2>
+                <p class="justify" data-aos="fade-left">Demnächst verfügbar!</p>
+            </header>
         </div>
     </section>
 
     <section id="skills">
         <div class="container">
+            <header data-aos="fade-left">
+                <h2>Fähigkeiten (Skill-Profil)</h2>
+                <p>Ein Skill-Profil ist eine Zusammenstellung von Fähigkeiten, Erfahrungen und Qualifikationen einer Person. Es dient dazu, die Kompetenzen und Stärken einer Person zu präsentieren und potenziellen Arbeitgebern oder anderen Interessenten einen Überblick über die beruflichen Fähigkeiten zu geben.</p>
+            </header>
+
+            <div class="tab-container">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab1-1">Informatik</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1-2">Webentwicklung</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1-3">Logistik</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab1-1">
+                    Informatik
+                </div>
+                <div class="tab-pane fade" id="tab1-2">
+                    Webentwicklung
+                </div>
+                <div class="tab-pane fade" id="tab1-3">
+                    Logistik
+                </div>
+            </div>
         </div>
     </section>
 

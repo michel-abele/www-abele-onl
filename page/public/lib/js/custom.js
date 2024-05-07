@@ -99,11 +99,24 @@
         }
     };
 
+    // function for initializing the tab menu
+    const initTabMenu = () => {
+        $('.tab-container').each(function() {
+            $(this).find('.nav-tabs a').on('click', function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+        });
+    };
+
     // jQuery ready function
     $(document).ready(function() {
 
         // cookie notice
         initCookieNotice();
+
+        // tab menu
+        initTabMenu();
 
         // mobile nav toggle
         $('#mobile-nav-toggle').on('click', function() {
