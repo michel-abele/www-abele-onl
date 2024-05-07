@@ -191,6 +191,7 @@
 
     new PureCounter( {
         separator: true,
+        once: false,
         formater: 'de-DE'
     } );
 })();

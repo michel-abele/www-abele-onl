@@ -184,14 +184,14 @@ ob_start();
 
     <section id="certificates">
         <div class="container">
-            <header>
+            <header data-aos="fade-left">
                 <h2>Zertifikate</h2>
-                <p class="justify" data-aos="fade-left">Demnächst verfügbar!</p>
+                <p class="justify">Hier könnte Ihre Werbung stehen!</p>
             </header>
         </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="background">
         <div class="container">
             <header data-aos="fade-left">
                 <h2>Fähigkeiten (Skill-Profil)</h2>
@@ -203,18 +203,593 @@ ob_start();
                     <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab1-1">Informatik</a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1-2">Webentwicklung</a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1-3">Logistik</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1-4">Soziale Kompetenz</a></li>
                 </ul>
             </div>
 
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="tab1-1">
-                    Informatik
+                    <h3>Informatik</h3>
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Microsoft</h2>
+
+                            <div class="progress">
+                                <span class="skill">Windows <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Windows Server <i class="val">70%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Microsoft 365 <i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Microsoft SQL Server<i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">PowerShell-Scripting <i class="val">55%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Linux</h2>
+
+                            <div class="progress">
+                                <span class="skill">Debian <i class="val">70%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="progress">
+                                <span class="skill">Ubuntu <i class="val">55%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">AlmaLinux (RHEL) <i class="val">20%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Linux-Shell-Scripting <i class="val">15%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Preseed / Kickstart <i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Virtualisierung</h2>
+
+                            <div class="progress">
+                                <span class="skill">VMware ESXi / vSphere <i class="val">45%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Microsoft Hyper-V <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Proxmox VE <i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Linux KVM / QEMU <i class="val">20%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Docker <i class="val">15%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">LXC <i class="val">15%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Fernzugriff / -wartung</h2>
+
+                            <div class="progress">
+                                <span class="skill">Teamviewer <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Microsoft Remotedesktop<i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">AnyDesk <i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">VNC <i class="val">20%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">SSH Terminal <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">PuTTY <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Firewalls / Router</h2>
+
+                            <div class="progress">
+                                <span class="skill">AVM Fritz!Box<i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Sophos SD / XG <i class="val">65%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">OPNsense <i class="val">30%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">iptables <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Monitoring / Verwaltung</h2>
+
+                            <div class="progress">
+                                <span class="skill">Zabbix <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Paessler PRTG <i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">DATTO RMM <i class="val">45%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="tab-pane fade" id="tab1-2">
-                    Webentwicklung
+                    <h3>Webentwicklung</h3>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Frontend</h2>
+
+                            <div class="progress">
+                                <span class="skill">HTML<i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">CSS<i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Sass / SCSS<i class="val">70%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">JavaScript<i class="val">20%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Backend</h2>
+
+                            <div class="progress">
+                                <span class="skill">PHP <i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">MySQL / MariaDB <i class="val">35%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Apache HTTP Server <i class="val">45%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Node.js <i class="val">15%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Libraries / Frameworks</h2>
+
+                            <div class="progress">
+                                <span class="skill">Bootstrap <i class="val">35%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">jQuery <i class="val">15%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Online-Dienste</h2>
+
+                            <div class="progress">
+                                <span class="skill">Cloudflare<i class="val">20%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">GitHub <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">GitLab <i class="val">15%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Google Search Console <i class="val">65%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="tab-pane fade" id="tab1-3">
-                    Logistik
+                    <h3>Logistik</h3>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Verkehrsträger</h2>
+
+                            <div class="progress">
+                                <span class="skill">Straßengüterverkehr <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Binnenschifffahrt <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Frachtenbörsen</h2>
+
+                            <div class="progress">
+                                <span class="skill">TIMOCOM <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">teleroute <i class="val">15%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Dispostion</h2>
+
+                            <div class="progress">
+                                <span class="skill">Stückgut (Lkw, international) <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Agrar-Schüttgut (Lkw) <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Kurier-Express-Paket-Dienst (KEP) <i class="val">45%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Schiffsbe- / -entladung <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Verwaltung</h2>
+
+                            <div class="progress">
+                                <span class="skill">Tourenplanung <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Ernteeinsatzplanung <i class="val">25%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Rechnungsstellung <i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Supply Chain Management (SCM) <i class="val">30%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="tab1-4">
+                    <h3>Soziale Kompetenz</h3>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Sprachen</h2>
+
+                            <div class="progress">
+                                <span class="skill">Deutsch <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Englisch <i class="val">45%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Betriebswirtschaftslehre</h2>
+
+                            <div class="progress">
+                                <span class="skill">Buchhaltung / Bilanzierung <i class="val">65%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Personalverwaltung <i class="val">45%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                            <h2>Persönlichkeit</h2>
+
+                            <div class="progress">
+                                <span class="skill">Eigenverantwortung <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Kritikfähig <i class="val">65%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Begeisterungsfähig <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Teamfähig <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <h2>Führungsfähigkeit</h2>
+
+                            <div class="progress">
+                                <span class="skill">Durchsetzungsvermögen <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Überzeugungsfähigkeit <i class="val">55%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Motivationsfähigkeit <i class="val">65%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Konfliktfähigkeit <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Interkulturelle Kompetenz <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
