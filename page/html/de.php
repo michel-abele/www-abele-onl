@@ -40,7 +40,7 @@ ob_start();
 
         <section id="about">
             <div class="container">
-                <header>
+                <header data-aos="zoom-in">
                     <h2>Über mich</h2>
                     <p class="mb-2 justify">Als ausgebildeter Informatiker und Speditionskaufmann schlägt mein Herz gleichermaßen für beide Berufe. Die Verbindung zwischen diesen scheinbar unterschiedlichen Bereichen fasziniert mich, da sie Gemeinsamkeiten aufweisen, die oft übersehen werden.</p>
                     <p class="mb-2 justify">In beiden Berufen steht der reibungslose Transport im Mittelpunkt. Als Informatiker sorge ich dafür, dass Daten sicher und effizient von einem Punkt zum anderen gelangen. In ähnlicher Weise kümmere ich mich als Speditionskaufmann darum, dass Waren termingerecht und unversehrt an ihr Ziel kommen.</p>
@@ -82,11 +82,22 @@ ob_start();
         <div class="container">
             <header>
                 <h2>Fakten</h2>
-                <p class="justify">In meiner beruflichen Laufbahn haben sich einige Daten angesammelt. Im Folgenden finden Sie eine kleine Auswahl genauer, gerundeter und geschätzter Werte.</p>
+                <p class="justify" data-aos="flip-up">In meiner beruflichen Laufbahn haben sich einige Daten angesammelt. Im Folgenden finden Sie eine kleine Auswahl genauer, gerundeter und geschätzter Werte.</p>
             </header>
 
             <div class="row no-gutters">
                 <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="0">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-box-seam"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">Jahre</span><br>
+                            <span class="counter-text">Berufserfahrung als Speditionskaufmann.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="count-box">
                         <p>
                             <i class="bi-before bi-before-globe-europe-africa"></i>
@@ -97,13 +108,48 @@ ob_start();
                     </div>
                 </div>
 
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-pc-display-horizontal"></i>
+                            <span class="counter-prefix">&gt;</span>
+                            <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">Jahre</span><br>
+                            <span class="counter-text">Berufserfahrung als Informatiker.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-fullscreen-exit"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="365" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">Tage</span><br>
+                            <span class="counter-text">NATO-Kriegsgefangenschaft in Celle und Munster.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="0">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-headset"></i>
+                            <span class="counter-prefix">&gt;</span>
+                            <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">t</span><br>
+                            <span class="counter-text">verschiedenster Dinge bewegt.</span>
+                        </p>
+                    </div>
+                </div>
+
                 <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="count-box">
                         <p>
                             <i class="bi-before bi-before-headset"></i>
-                            <span class="counter-prefix">über</span>
+                            <span class="counter-prefix">&gt;</span>
                             <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
-                            <span class="counter-unit">Stunden</span><br>
+                            <span class="counter-unit">h</span><br>
                             <span class="counter-text">1<sup>st</sup>-Level-Helpdesk.</span>
                         </p>
                     </div>
@@ -113,10 +159,10 @@ ob_start();
                     <div class="count-box">
                         <p>
                             <i class="bi-before bi-before-code-slash"></i>
-                            <span class="counter-prefix">über</span>
+                            <span class="counter-prefix">&gt;</span>
                             <span data-purecounter-start="0" data-purecounter-end="200000" data-purecounter-duration="1" class="purecounter"></span>
                             <span class="counter-unit">Zeilen</span><br>
-                            <span class="counter-text">geschriebener Code.</span>
+                            <span class="counter-text">Code verschiedener Sprachen.</span>
                         </p>
                     </div>
                 </div>
@@ -125,10 +171,10 @@ ob_start();
                     <div class="count-box">
                         <p>
                             <i class="bi-before bi-before-truck"></i>
-                            <span class="counter-prefix">über</span>
+                            <span class="counter-prefix">&gt;</span>
                             <span data-purecounter-start="0" data-purecounter-end="500000" data-purecounter-duration="1" class="purecounter"></span>
-                            <span class="counter-unit">Kilometer</span><br>
-                            <span class="counter-text">am Steuer eines Lkw.</span>
+                            <span class="counter-unit">km</span><br>
+                            <span class="counter-text">mit Lastkraftwagen verschiedener Hersteller.</span>
                         </p>
                     </div>
                 </div>
