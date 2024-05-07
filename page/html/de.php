@@ -69,7 +69,7 @@ ob_start();
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-bottom">
+                    <div data-aos="fade-up">
                         <p class="mb-2 justify">Als jemand, der hin und wieder auf der Suche nach neuen beruflichen Möglichkeiten ist, möchte ich auf meinen Verfügbarkeitsstatus für den Arbeitsmarkt hinweisen. Ich bin gleichermaßen an meinen beiden Berufen interessiert und stehe Ihnen gerne bereichsübergreifend zur Verfügung.</p>
                         <p class="mb-2 justify">Gleichzeitig bin ich auch als Freelancer tätig und suche stets nach spannenden Projekten, bei denen ich meine Fähigkeiten und Erfahrungen einbringen kann.</p>
                         <p class="justify">Wenn Sie an einer Zusammenarbeit interessiert sind oder weitere Informationen benötigen, zögern Sie nicht, mich zu kontaktieren.</p>
@@ -80,6 +80,59 @@ ob_start();
 
     <section id="facts">
         <div class="container">
+            <header>
+                <h2>Fakten</h2>
+                <p class="justify">In meiner beruflichen Laufbahn haben sich einige Daten angesammelt. Im Folgenden finden Sie eine kleine Auswahl genauer, gerundeter und geschätzter Werte.</p>
+            </header>
+
+            <div class="row no-gutters">
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="0">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-globe-europe-africa"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">Länder</span><br>
+                            <span class="counter-text">mehrfach beruflich besucht.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-headset"></i>
+                            <span class="counter-prefix">über</span>
+                            <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">Stunden</span><br>
+                            <span class="counter-text">1<sup>st</sup>-Level-Helpdesk.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-code-slash"></i>
+                            <span class="counter-prefix">über</span>
+                            <span data-purecounter-start="0" data-purecounter-end="200000" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">Zeilen</span><br>
+                            <span class="counter-text">geschriebener Code.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="count-box">
+                        <p>
+                            <i class="bi-before bi-before-truck"></i>
+                            <span class="counter-prefix">über</span>
+                            <span data-purecounter-start="0" data-purecounter-end="500000" data-purecounter-duration="1" class="purecounter"></span>
+                            <span class="counter-unit">Kilometer</span><br>
+                            <span class="counter-text">am Steuer eines Lkw.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

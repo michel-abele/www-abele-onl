@@ -80,7 +80,38 @@ section {
 
 // facts
 #facts {
+    padding-bottom: var(--cs-space-inner-xl);
 
+    .count-box {
+        width: 100%;
+        padding: var(--cs-space-inner-xl);
+
+        i {
+            margin-right: var(--cs-space-inner-xl);
+            font-size: var(--cs-font-size-h2);
+            color: var(--cs-color-link-default);
+        }
+
+        .counter-prefix {
+            margin-right: var(--cs-space-inner-md);
+            font-size: var(--cs-font-size-h5);
+            color: var(--cs-color-text-heading);
+            font-weight: var(--cs-font-weight-bold);
+        }
+
+        .purecounter {
+            font-size: var(--cs-font-size-h2);
+            color: var(--cs-color-text-heading);
+            font-weight: var(--cs-font-weight-bold);
+        }
+
+        .counter-unit {
+            margin-left: var(--cs-space-inner-md);
+            font-size: var(--cs-font-size-h6);
+            color: var(--cs-color-text-heading);
+            font-weight: var(--cs-font-weight-bold);
+        }
+    }
 }
 
 // certificates
