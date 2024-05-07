@@ -212,7 +212,7 @@ ob_start();
                     <h3>Informatik</h3>
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Microsoft</h2>
+                            <h4>Microsoft</h4>
 
                             <div class="progress">
                                 <span class="skill">Windows <i class="val">85%</i></span>
@@ -251,7 +251,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Linux</h2>
+                            <h4>Linux</h4>
 
                             <div class="progress">
                                 <span class="skill">Debian <i class="val">70%</i></span>
@@ -293,7 +293,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Virtualisierung</h2>
+                            <h4>Virtualisierung</h4>
 
                             <div class="progress">
                                 <span class="skill">VMware ESXi / vSphere <i class="val">45%</i></span>
@@ -339,7 +339,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Fernzugriff / -wartung</h2>
+                            <h4>Fernzugriff / -wartung</h4>
 
                             <div class="progress">
                                 <span class="skill">Teamviewer <i class="val">85%</i></span>
@@ -387,7 +387,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Firewalls / Router</h2>
+                            <h4>Firewalls / Router</h4>
 
                             <div class="progress">
                                 <span class="skill">AVM Fritz!Box<i class="val">50%</i></span>
@@ -419,7 +419,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Monitoring / Verwaltung</h2>
+                            <h4>Monitoring / Verwaltung</h4>
 
                             <div class="progress">
                                 <span class="skill">Zabbix <i class="val">25%</i></span>
@@ -450,7 +450,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Frontend</h2>
+                            <h4>Frontend</h4>
 
                             <div class="progress">
                                 <span class="skill">HTML<i class="val">80%</i></span>
@@ -482,7 +482,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Backend</h2>
+                            <h4>Backend</h4>
 
                             <div class="progress">
                                 <span class="skill">PHP <i class="val">60%</i></span>
@@ -516,7 +516,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Libraries / Frameworks</h2>
+                            <h4>Libraries / Frameworks</h4>
 
                             <div class="progress">
                                 <span class="skill">Bootstrap <i class="val">35%</i></span>
@@ -534,7 +534,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Online-Dienste</h2>
+                            <h4>Online-Dienste</h4>
 
                             <div class="progress">
                                 <span class="skill">Cloudflare<i class="val">20%</i></span>
@@ -572,7 +572,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Verkehrsträger</h2>
+                            <h4>Verkehrsträger</h4>
 
                             <div class="progress">
                                 <span class="skill">Straßengüterverkehr <i class="val">85%</i></span>
@@ -590,7 +590,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Frachtenbörsen</h2>
+                            <h4>Frachtenbörsen</h4>
 
                             <div class="progress">
                                 <span class="skill">TIMOCOM <i class="val">85%</i></span>
@@ -610,7 +610,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Dispostion</h2>
+                            <h4>Dispostion</h4>
 
                             <div class="progress">
                                 <span class="skill">Stückgut (Lkw, international) <i class="val">75%</i></span>
@@ -643,7 +643,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Verwaltung</h2>
+                            <h4>Verwaltung</h4>
 
                             <div class="progress">
                                 <span class="skill">Tourenplanung <i class="val">85%</i></span>
@@ -681,7 +681,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Sprachen</h2>
+                            <h4>Sprachen</h4>
 
                             <div class="progress">
                                 <span class="skill">Deutsch <i class="val">90%</i></span>
@@ -699,7 +699,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Betriebswirtschaftslehre</h2>
+                            <h4>Betriebswirtschaftslehre</h4>
 
                             <div class="progress">
                                 <span class="skill">Buchhaltung / Bilanzierung <i class="val">65%</i></span>
@@ -719,7 +719,7 @@ ob_start();
 
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
-                            <h2>Persönlichkeit</h2>
+                            <h4>Persönlichkeit</h4>
 
                             <div class="progress">
                                 <span class="skill">Eigenverantwortung <i class="val">85%</i></span>
@@ -751,7 +751,7 @@ ob_start();
                         </div>
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <h2>Führungsfähigkeit</h2>
+                            <h4>Führungsfähigkeit</h4>
 
                             <div class="progress">
                                 <span class="skill">Durchsetzungsvermögen <i class="val">85%</i></span>
