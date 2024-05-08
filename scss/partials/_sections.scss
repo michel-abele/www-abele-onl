@@ -125,11 +125,7 @@ section {
 #skills {
 
     .tab-container {
-        margin-bottom: var(--cs-space-inner-md);
-
-        h3 {
-            margin-bottom: var(--space-inner-sl);
-        }
+        margin-bottom: var(--cs-space-inner-lg);
 
         a {
             color: var(--cs-color-text-normal);
@@ -147,15 +143,19 @@ section {
         .skills-content {
             margin-bottom: var(--cs-space-base);
 
+            h3 {
+                margin-bottom: var(--cs-space-inner-lg);
+            }
+
             h4 {
-                margin-bottom: var(--space-inner-sl);
+                margin-bottom: var(--cs-space-inner-sl);
             }
         }
 
         .progress {
             display: block;
             height: 3.6rem;
-            padding: var(--space-inner-sm);
+            padding: var(--cs-space-inner-sm);
             background-color: var(--cs-color-background-section);
             border-radius: 0;
 
@@ -170,6 +170,18 @@ section {
                 .val {
                     font-style: normal;
                     float: right;
+                }
+            }
+
+            .nav-tabs {
+                border-bottom-color: var(--cs-color-text-heading);
+
+                .nav-link {
+
+                    &.active {
+                        background-color: var(--cs-color-text-header-nav);
+                        border-color: var(--cs-color-text-heading);
+                    }
                 }
             }
         }
@@ -191,6 +203,56 @@ section {
 // resume
 #resume {
 
+    .resume-title {
+        margin-top: var(--cs-space-inner-xl);
+        margin-bottom: var(--cs-space-inner-xl);
+    }
+
+    .resume-item {
+        margin-top: -2px;
+        padding: 0 0 var(--cs-space-inner-xl) var(--cs-space-inner-xl);
+        position: relative;
+        border-left: 2px solid var(--cs-color-link-default);
+
+        h4 {
+            margin-bottom: var(--cs-space-inner-sl);
+        }
+
+        h5 {
+            display: inline-block;
+            margin-bottom: var(--cs-space-inner-sm);
+            padding: var(--cs-space-inner-xs) var(--cs-space-base);
+            font-size: var(--cs-font-size-base);
+            font-weight: 600;
+            background-color: var(--color-link-default);
+            border: 1px solid var(--color-link-default);
+            border-radius: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+
+            li {
+                padding-bottom: 10px;
+            }
+        }
+
+        &::before {
+            content: "";
+            width: var(--cs-space-base);
+            height: var(--cs-space-base);
+            position: absolute;
+            left: -9px;
+            top: 0;
+            background-color: var(--cs-color-background-page);
+            border: 2px solid var(--cs-color-link-default);
+            border-radius: var(--cs-logo-radius);
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
 }
 
 // github

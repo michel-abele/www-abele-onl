@@ -78,7 +78,7 @@ ob_start();
             </div>
         </section>
 
-    <section id="facts">
+    <section id="facts" class="background">
         <div class="container">
             <header data-aos="fade-left">
                 <h2>Fakten</h2>
@@ -198,7 +198,7 @@ ob_start();
                 <p class="justify">Ein Skill-Profil ist eine Zusammenstellung von Fähigkeiten, Erfahrungen und Qualifikationen einer Person. Es dient dazu, die Kompetenzen und Stärken einer Person zu präsentieren und potenziellen Arbeitgebern oder anderen Interessenten einen Überblick über die beruflichen Fähigkeiten zu geben.</p>
             </header>
 
-            <div class="tab-container" data-aos="fade-left">
+            <div class="tab-container" data-aos="fade-left" data-aos-delay="100">
                 <ul class="nav nav-tabs">
                     <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab1-1">Informatik</a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1-2">Webentwicklung</a></li>
@@ -207,7 +207,7 @@ ob_start();
                 </ul>
             </div>
 
-            <div class="tab-content" data-aos="fade-up">
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="100">
                 <div class="tab-pane fade show active" id="tab1-1">
                     <h3>Informatik</h3>
                     <div class="row skills-content">
