@@ -1,5 +1,6 @@
 // global
 section {
+    min-height: 100vh;
     padding: var(--cs-space-inner-xl) 0;
     overflow: hidden;
 
@@ -132,8 +133,11 @@ section {
 
             .nav-link {
 
+                &:hover {
+                    border-color: var(--cs-color-link-hover);
+                }
+
                 &.active {
-                    background-color: var(--cs-color-text-header-nav);
                     border-color: var(--cs-color-text-heading);
                 }
             }
@@ -152,12 +156,12 @@ section {
 
     .tab-content {
 
+        h3 {
+            margin-bottom: var(--cs-space-inner-xl);
+        }
+
         .skills-content {
             margin-bottom: var(--cs-space-base);
-
-            h3 {
-                margin-bottom: var(--cs-space-inner-xl);
-            }
 
             h4 {
                 margin-bottom: var(--cs-space-inner-sl);
@@ -224,8 +228,8 @@ section {
             padding: var(--cs-space-inner-xs) var(--cs-space-base);
             font-size: var(--cs-font-size-base);
             font-weight: 600;
-            background-color: var(--cs-color-link-default);
-            border: 1px solid var(--cs-color-link-default);
+            background-color: var(--cs-color-text-header-nav);
+            border: 1px solid var(--cs-color-text-header-nav);
             border-radius: 5px;
         }
 
@@ -306,8 +310,11 @@ section {
         .address,
         .phone {
 
-            i {
-                background-color: var(--cs-color-link-hover);
+            &:hover {
+                
+                i {
+                    background-color: var(--cs-color-link-hover);
+                }
             }
         }
     }
