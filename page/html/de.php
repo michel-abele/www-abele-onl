@@ -914,23 +914,110 @@ ob_start();
         </div>
     </section>
 
-    <section id="github">
+    <section id="github" class="services background">
         <div class="container">
+            <header data-aos="fade-left">
+                <h2>GitHub-Repositories</h2>
+                <p>Gelegentlich veröffentliche ich Skripte und Projekte auf meinem GitHub-Account. Diese öffentlichen Repositories sind fast immer unter einer freien Lizenz verfügbar und können von jedem genutzt werden.</p>
+            </header>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <a href="https://github.com/michel-abele/vscode-settings" target="_blank">
+                        <div class="icon"><i class="bi-before bi-before-filetype-json"></i></div>
+                        <h4 class="title">VS Code settings</h4>
+                        <p class="description">Dieses Repository enthält verschiedene Einstellungsmöglichkeiten für den Editor Visual Studio Code. </p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <a href="https://github.com/michel-abele/apache-htaccess-snippets" target="_blank">
+                        <div class="icon"><i class="bi-before bi-before-file-earmark"></i></div>
+                        <h4 class="title">Apache htaccess snippets</h4>
+                        <p class="description">Dieses Repository enthält verschiedene Konfigurationsschnipsel für die htaccess-Dateien des Apache HTTP Servers. </p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <a href="https://github.com/michel-abele/debian-preseed-workbench" target="_blank">    
+                        <div class="icon"><i class="bi-before bi-before-filetype-sh"></i></div>
+                        <h4 class="title">Debian preseed workbench</h4>
+                        <p class="description">Eine Werkbankvorlage für die Erstellung von Debian-Preseed-ISOs.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <a href="https://github.com/michel-abele/www-abele-onl" target="_blank">    
+                        <div class="icon"><i class="bi-before bi-before-file-earmark"></i></div>
+                        <h4 class="title">Webseite: www.abele.onl</h4>
+                        <p class="description">Dieses Repository enthält den gesamten Arbeitsbereich (inklusive Code und Inhalt) meiner Webseite: www.abele.onl.</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="websites">
+    <section id="websites" class="services">
         <div class="container">
+            <header data-aos="fade-left">
+                <h2>Webprojekte</h2>
+                <p>Ich entwickle und erweitere regelmäßig eigene Webprojekte, um mein Wissen zu erweitern und auf dem neuesten Stand zu halten. Einige dieser Projekte sind private Projekte und andere sollen kommerzielle Privatprojekte werden.</p>
+            </header>
+
+            <div class="row">
+                <p>Hier könnte Ihre Werbung stehen!</p>
+            </div>
         </div>
     </section>
 
-    <section id="games">
+    <section id="games" class="services background">
         <div class="container">
+            <header data-aos="fade-left">
+                <h2>Game-Server</h2>
+                <p>Wenn ich keine Lust auf Informatik oder Heimatforschung habe, widme ich mich der Erstellung und Verwaltung verschiedener Game-Server und spiele gerne mit Freunden und anderen Spielern darauf.</p>
+            </header>
+
+            <div class="row">
+                <p>Hier könnte Ihre Werbung stehen!</p>
+            </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
+            <header data-aos="fade-left">
+                <h2>Kontakt</h2>
+                <p>Hier finden Sie verschiedene Informationen für eine ordentliche Kontaktaufnahme. Jegliche Nutzung außerhalb dieses Zwecks wird ausnahmslos zur Anzeige gebracht.</p>
+            </header>
+
+            <div class="info row" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Anschrift:</h4>
+                            <p>Dahlenwarsleber Str. 4, 39326 Hohenwarsleben</p>
+                        </div>
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>E-Mail-Adresse:</h4>
+                            <p><a href="mailto:kontakt@michel-abele.de">kontakt@michel-abele.de</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Telefonnummer:</h4>
+                            <p><a href="tel:+4915122883384">+49 (0)151 22 88 33 84</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=11.487364768981935%2C52.17224727394878%2C11.515688896179201%2C52.18361586196997&amp;layer=mapnik&amp;marker=52.17793193118188%2C11.501526832580566"></iframe>
+                <p><a href="https://www.openstreetmap.org/?mlat=52.1779&amp;mlon=11.5015#map=16/52.1779/11.5015">Größere Karte anzeigen</a></p>
+            </div>
         </div>
     </section>
 
