@@ -138,6 +138,7 @@ section {
                 }
 
                 &.active {
+                    background-color: transparent;
                     border-color: var(--cs-color-text-heading);
                 }
             }

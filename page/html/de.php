@@ -926,7 +926,7 @@ ob_start();
                     <a href="https://github.com/michel-abele/vscode-settings" target="_blank">
                         <div class="icon"><i class="bi-before bi-before-filetype-json"></i></div>
                         <h4 class="title">VS Code settings</h4>
-                        <p class="description">Dieses Repository enthält verschiedene Einstellungsmöglichkeiten für den Editor Visual Studio Code. </p>
+                        <p class="description"><img src="https://img.shields.io/github/last-commit/michel-abele/vscode-settings/main?logo=github&label=last%20commit%3A%20main"> <img src="https://img.shields.io/github/last-commit/michel-abele/vscode-settings/work?logo=github&label=last%20commit%3A%20work"><br>Dieses Repository enthält verschiedene Einstellungsmöglichkeiten für den Editor Visual Studio Code. </p>
                     </a>
                 </div>
 
@@ -934,7 +934,7 @@ ob_start();
                     <a href="https://github.com/michel-abele/apache-htaccess-snippets" target="_blank">
                         <div class="icon"><i class="bi-before bi-before-file-earmark"></i></div>
                         <h4 class="title">Apache htaccess snippets</h4>
-                        <p class="description">Dieses Repository enthält verschiedene Konfigurationsschnipsel für die htaccess-Dateien des Apache HTTP Servers. </p>
+                        <p class="description"><img src="https://img.shields.io/github/last-commit/michel-abele/apache-htaccess-snippets/main?logo=github&label=last%20commit%3A%20main"> <img src="https://img.shields.io/github/last-commit/michel-abele/apache-htaccess-snippets/work?logo=github&label=last%20commit%3A%20work"><br>Dieses Repository enthält verschiedene Konfigurationsschnipsel für die htaccess-Dateien des Apache HTTP Servers. </p>
                     </a>
                 </div>
 
@@ -942,7 +942,7 @@ ob_start();
                     <a href="https://github.com/michel-abele/debian-preseed-workbench" target="_blank">    
                         <div class="icon"><i class="bi-before bi-before-filetype-sh"></i></div>
                         <h4 class="title">Debian preseed workbench</h4>
-                        <p class="description">Eine Werkbankvorlage für die Erstellung von Debian-Preseed-ISOs.</p>
+                        <p class="description"><img src="https://img.shields.io/github/last-commit/michel-abele/debian-preseed-workbench/main?logo=github&label=last%20commit%3A%20main"> <img src="https://img.shields.io/github/last-commit/michel-abele/debian-preseed-workbench/work?logo=github&label=last%20commit%3A%20work"><br>Eine Werkbankvorlage für die Erstellung von Debian-Preseed-ISOs.</p>
                     </a>
                 </div>
             </div>
@@ -952,7 +952,7 @@ ob_start();
                     <a href="https://github.com/michel-abele/www-abele-onl" target="_blank">    
                         <div class="icon"><i class="bi-before bi-before-file-earmark"></i></div>
                         <h4 class="title">Webseite: www.abele.onl</h4>
-                        <p class="description">Dieses Repository enthält den gesamten Arbeitsbereich (inklusive Code und Inhalt) meiner Webseite: www.abele.onl.</p>
+                        <p class="description"><img src="https://img.shields.io/github/last-commit/michel-abele/www-abele-onl/main?logo=github&label=last%20commit%3A%20main"> <img src="https://img.shields.io/github/last-commit/michel-abele/www-abele-onl/work?logo=github&label=last%20commit%3A%20work"><br>Dieses Repository enthält den gesamten Arbeitsbereich (inklusive Code und Inhalt) meiner Webseite: www.abele.onl.</p>
                     </a>
                 </div>
             </div>
@@ -996,19 +996,19 @@ ob_start();
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="address">
-                            <i class="bi bi-geo-alt"></i>
+                            <i class="bi-before bi-before-geo-alt"></i>
                             <h4>Anschrift:</h4>
                             <p>Dahlenwarsleber Str. 4, 39326 Hohenwarsleben</p>
                         </div>
                         <div class="email">
-                            <i class="bi bi-envelope"></i>
+                            <i class="bi-before bi-before-envelope"></i>
                             <h4>E-Mail-Adresse:</h4>
                             <p><a href="mailto:kontakt@michel-abele.de">kontakt@michel-abele.de</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="phone">
-                            <i class="bi bi-phone"></i>
+                            <i class="bi-before bi-before-phone"></i>
                             <h4>Telefonnummer:</h4>
                             <p><a href="tel:+4915122883384">+49 (0)151 22 88 33 84</a></p>
                         </div>
@@ -1016,7 +1016,7 @@ ob_start();
                 </div>
 
                 <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=11.487364768981935%2C52.17224727394878%2C11.515688896179201%2C52.18361586196997&amp;layer=mapnik&amp;marker=52.17793193118188%2C11.501526832580566"></iframe>
-                <p><a href="https://www.openstreetmap.org/?mlat=52.1779&amp;mlon=11.5015#map=16/52.1779/11.5015">Größere Karte anzeigen</a></p>
+                <p><a href="https://www.openstreetmap.org/?mlat=52.1779&amp;mlon=11.5015#map=16/52.1779/11.5015" target="_blank">Größere Karte anzeigen</a></p>
             </div>
         </div>
     </section>
