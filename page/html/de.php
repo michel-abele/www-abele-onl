@@ -195,10 +195,10 @@ ob_start();
         <div class="container">
             <header data-aos="fade-left">
                 <h2>Fähigkeiten (Skill-Profil)</h2>
-                <p>Ein Skill-Profil ist eine Zusammenstellung von Fähigkeiten, Erfahrungen und Qualifikationen einer Person. Es dient dazu, die Kompetenzen und Stärken einer Person zu präsentieren und potenziellen Arbeitgebern oder anderen Interessenten einen Überblick über die beruflichen Fähigkeiten zu geben.</p>
+                <p class="justify">Ein Skill-Profil ist eine Zusammenstellung von Fähigkeiten, Erfahrungen und Qualifikationen einer Person. Es dient dazu, die Kompetenzen und Stärken einer Person zu präsentieren und potenziellen Arbeitgebern oder anderen Interessenten einen Überblick über die beruflichen Fähigkeiten zu geben.</p>
             </header>
 
-            <div class="tab-container">
+            <div class="tab-container" data-aos="fade-left">
                 <ul class="nav nav-tabs">
                     <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab1-1">Informatik</a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1-2">Webentwicklung</a></li>
@@ -207,11 +207,11 @@ ob_start();
                 </ul>
             </div>
 
-            <div class="tab-content">
+            <div class="tab-content" data-aos="fade-up">
                 <div class="tab-pane fade show active" id="tab1-1">
                     <h3>Informatik</h3>
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Microsoft</h4>
 
                             <div class="progress">
@@ -250,7 +250,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Linux</h4>
 
                             <div class="progress">
@@ -292,7 +292,7 @@ ob_start();
                     </div>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Virtualisierung</h4>
 
                             <div class="progress">
@@ -338,7 +338,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Fernzugriff / -wartung</h4>
 
                             <div class="progress">
@@ -386,7 +386,7 @@ ob_start();
                     </div>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Firewalls / Router</h4>
 
                             <div class="progress">
@@ -418,7 +418,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Monitoring / Verwaltung</h4>
 
                             <div class="progress">
@@ -449,7 +449,7 @@ ob_start();
                     <h3>Webentwicklung</h3>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Frontend</h4>
 
                             <div class="progress">
@@ -481,7 +481,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Backend</h4>
 
                             <div class="progress">
@@ -515,7 +515,7 @@ ob_start();
                     </div>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Libraries / Frameworks</h4>
 
                             <div class="progress">
@@ -533,7 +533,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Online-Dienste</h4>
 
                             <div class="progress">
@@ -571,7 +571,7 @@ ob_start();
                     <h3>Logistik</h3>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Verkehrsträger</h4>
 
                             <div class="progress">
@@ -589,7 +589,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Frachtenbörsen</h4>
 
                             <div class="progress">
@@ -609,7 +609,7 @@ ob_start();
                     </div>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Dispostion</h4>
 
                             <div class="progress">
@@ -642,7 +642,7 @@ ob_start();
 
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Verwaltung</h4>
 
                             <div class="progress">
@@ -680,7 +680,7 @@ ob_start();
                     <h3>Soziale Kompetenz</h3>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Sprachen</h4>
 
                             <div class="progress">
@@ -698,7 +698,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Betriebswirtschaftslehre</h4>
 
                             <div class="progress">
@@ -718,7 +718,7 @@ ob_start();
                     </div>
 
                     <div class="row skills-content">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="col-lg-6">
                             <h4>Persönlichkeit</h4>
 
                             <div class="progress">
@@ -750,7 +750,7 @@ ob_start();
                             </div>
                         </div>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6">
                             <h4>Führungsfähigkeit</h4>
 
                             <div class="progress">
@@ -789,7 +789,6 @@ ob_start();
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -797,6 +796,121 @@ ob_start();
 
     <section id="resume">
         <div class="container">
+
+            <header data-aos="fade-left">
+                <h2>Lebenslauf</h2>
+                <p class="justify">Meine erste Berufsausbildung war die zum Tischler, während derer ich erstmals mit der CNC-Technik in Kontakt kam, was mein Interesse an der Informatik weckte. Nach einem Jahr Kriegsgefangenschaft in Celle/Munster absolvierte ich eine Umschulung zum Fachinformatiker und war daraufhin mehrere Jahre in Berlin tätig. Aufgrund eines Einbruchs der Systemhäuser und dem daraus resultierenden Überschuss an Informatikern auf dem Arbeitsmarkt, musste ich mich neu orientieren. Daraufhin entschied ich mich für eine Umschulung zum Speditionskaufmann und erweiterte zusätzlich meinen Führerschein auf die Klasse CE (Lkw mit Anhänger). Nach einigen Jahren in der Agrarlogistik bot sich mir die Möglichkeit, wieder in den Bereich der Informatik zu wechseln, die ich sofort ergriff.</p>
+            </header>
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h3 class="resume-title">Zusammenfassung</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Michel Abele</h4>
+                        <ul>
+                            <li><strong>Alter:</strong> <?= $age ?></li>
+                            <li><strong>Geschlecht:</strong> männlich</li>
+                            <li><strong>Wohnort:</strong> Hohenwarsleben, Sachsen-Anhalt</li>
+                            <li><strong>Telefon:</strong> <a href="tel:+4915122883384">+49 (0)151 22 88 33 84</a></li>
+                            <li><strong>E-Mail:</strong> <a href="mailto:kontakt@michel-abele.de">kontakt@michel-abele.de</a></li>
+                        </ul>
+                        <ul>
+                            <li><strong>Schulabschluss:</strong> Realschulabschluss</li>
+                            <li><strong>Berufsabschluss:</strong> Tischler</li>
+                            <li><strong>Berufsabschluss:</strong> Informatiker</li>
+                            <li><strong>Berufsabschluss:</strong> Speditionskaufmann</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="resume-title">Berufsausbildung</h3>
+                    <div class="resume-item">
+                        <h4>Kaufmann für Spedition und Logistikdienstleistung</h4>
+                        <h5>2014 - 2016</h5>
+                        <p><em>DEKRA Akademie GmbH, Magdeburg</em></p>
+                        <p class="justify">Die Ausbildung zum Speditionskaufmann umfasst sämtliche Bereiche der Verkehrsträger, darunter Straßengüterverkehr, Frachtschiffverkehr (Binnen- und Hochseeschifffahrt), Schienengüterverkehr und Luftfrachtverkehr. Des Weiteren beinhaltet sie Themen wie Betriebswirtschaftslehre, Zollwesen, internationales Wirtschaftsrecht und Supply-Chain-Management (SCM). Darüber hinaus vermittelte die Ausbildung an der DEKRA Akademie grundlegende Kenntnisse in den SAP-Modulen: CRM, FI, HCM, LO, LE, MM, SD und SRM sowie einen kurzen Einblick in die ABAP-Programmierung.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Fachinformatiker Systemintegration</h4>
+                        <h5>2000 - 2002</h5>
+                        <p><em>ELOP Magdeburg GmbH, Magdeburg</em></p>
+                        <p class="justify">Ein bedeutender Bestandteil meiner damaligen Ausbildung war Novell NetWare, das acht Jahre später komplett eingestellt wurde. Darüber hinaus umfasste sie auch weitere Bereiche der Informatik, wie die Planung, Einrichtung und Wartung von Microsoft-Windows-Netzwerken, Datenbankmanagementsystemen und die Grundlagen der Informatik.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Bau- und Möbeltischler</h4>
+                        <h5>1996 - 1999</h5>
+                        <p><em>TINO-Tischler GmbH, Magdeburg</em></p>
+                        <p class="justify">Die Ausbildung zum Tischler umfasste die Herstellung von Möbeln und Bauelementen aus Holz und Holzwerkstoffen. Ein Bestandteil war die Arbeit an CNC-Maschinen und Programmierung in G-Code.</p>
+                    </div>
+
+                    <h3 class="resume-title">Wehrdienst</h3>
+                    <div class="resume-item">
+                        <h4>Panzerpionier</h4>
+                        <h5>1999 - 2000</h5>
+                        <p><em>Bundeswehr, Celle/Munster</em></p>
+                        <p class="justify">Nach meiner Grundausbildung im 3. Panzerlehrbataillon 334 „CELLE“ wurde ich zum Kampfzug der Panzerpionierlehrkompanie 90 in Munster versetzt, wo ich den Rest meines Wehrdienstes absolvierte.</p>
+                        <p class="justify">Die Panzerpioniere sind eine schwere Infanterieeinheit, die mit gepanzerten Gerät Sperren anlegt oder öffnet und Gewässerhindernisse überwindet. Dazu verwenden sie auch verschiedenste Arten von Minen und Sprengstoffen. Zusätzlich werden sie im Orts- und Häuserkampf als Spreng- und Blendtrupp, zum Öffnen von Zugängen, Barrikaden und Sprengfallen eingesetzt.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Informatiker</h3>
+                    <div class="resume-item">
+                        <h4>Systemadministrator</h4>
+                        <h5>2024 - heute</h5>
+                        <p class="justify"><em>Aus Sicherheits- und Vertraulichkeitsgründen werde ich den Namen meines aktuellen Arbeitgebers hier nicht offenlegen.</em></p>
+                    </div>
+
+                    <div class="resume-item">
+                        <h4>Systemadministrator</h4>
+                        <h5>2019 - 2023</h5>
+                        <p><em>LOOMA GmbH, Magdeburg</em></p>
+                        <ul>
+                            <li class="justify">1st-Level-Support, einschließlich Überwachung des Monitorings der Kundensysteme im Rahmen des Managed-Services-Angebots in den Bereichen Workstation, Server und Security, mithilfe von Zabbix und Paessler PRTG.</li>
+                            <li class="justify">2nd-Level-Support im Managed-Services-Bereich Workstation mit Windows 10/11 auf Lenovo und anderen Herstellern.</li>
+                            <li class="justify">2nd-Level-Support im Managed-Services-Bereich für Server mit Windows Server auf verschiedenen Herstellern.</li>
+                            <li class="justify">2nd-Level-Support für den Managed-Services-Bereich Security mit Sophos Endpoint und SD/XG-Firewalls.</li>
+                            <li class="justify">PowerShell-Entwickler für die Erstellung von Automatisierungsskripten für die Remote-Monitoring-und-Management-Software Datto (Kaseya).</li>
+                            <li class="justify">Engineer und Administrator für Microsoft 365 und Hybridumgebungen.</li>
+                            <li class="justify">Engineer und Administrator für die Open-Source Digital-Signage-Software Xibo.</li>
+                        </ul>
+                    </div>
+
+                    <div class="resume-item">
+                        <h4>Systemtechniker</h4>
+                        <h5>2002 - 2014</h5>
+                        <p class="justify"><em>Das Systemhaus Datentechnik Berlin GmbH, Berlin</em></p>
+                        <ul>
+                            <li class="justify">2nd-Level-Support für Laptops, Workstations und Server von Hewlett-Packard (HP).</li>
+                            <li class="justify">2nd-Level-Support für POS-Kassensysteme mit Lkw-Waagen-Anschluss.</li>
+                            <li class="justify">2nd-Level-Support für Druckersysteme von Hewlett-Packard (HP).</li>
+                            <li class="justify">2nd-Level-Support für Industriecomputersystemen (IPC).</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="resume-title">Speditionskaufmann</h3>
+                    <div class="resume-item">
+                        <h4>Lkw-Disponent</h4>
+                        <h5>2018 - 2019</h5>
+                        <p><em>Spedition Gersch, Altenweddingen</em></p>
+                        <ul>
+                            <li class="justify">Disposition von Agrarschüttguttransporten nach GMP+.</li>
+                            <li class="justify">Disposition von Langholztransporten.</li>
+                            <li class="justify">Begleitung der Erneuerung der Logistik-Software und der Einführung einer neuen IP-Telefonanlage.</li>
+                        </ul>
+                    </div>
+
+                    <div class="resume-item">
+                        <h4>Lkw-Disponent und Berufskraftfahrer</h4>
+                        <h5>2016 - 2018</h5>
+                        <p><em>HaGe LOGISTIK GmbH, Haldensleben</em></p>
+                        <ul>
+                            <li class="justify">Disposition von Agrarschüttguttransporten nach GMP+.</li>
+                            <li class="justify">Planung und Durchführung von Schiffsbe- und entladungen.</li>
+                            <li class="justify">Berufskraftfahrer in der Erntezeit und während der Zuckerrübenkampagne.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

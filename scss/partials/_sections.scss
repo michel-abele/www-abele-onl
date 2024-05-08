@@ -124,6 +124,68 @@ section {
 // skills
 #skills {
 
+    .tab-container {
+        margin-bottom: var(--cs-space-inner-md);
+
+        h3 {
+            margin-bottom: var(--space-inner-sl);
+        }
+
+        a {
+            color: var(--cs-color-text-normal);
+            text-decoration: none;
+
+            &:hover {
+                color: var(--cs-color-text-normal);
+                text-decoration: none;
+            }
+        }
+    }
+
+    .tab-content {
+
+        .skills-content {
+            margin-bottom: var(--cs-space-base);
+
+            h4 {
+                margin-bottom: var(--space-inner-sl);
+            }
+        }
+
+        .progress {
+            display: block;
+            height: 3.6rem;
+            padding: var(--space-inner-sm);
+            background-color: var(--cs-color-background-section);
+            border-radius: 0;
+
+            .skill {
+                display: block;
+                margin: 0 0 6px 0;
+                padding: 0;
+                font-weight: 600;
+                line-height: 1;
+                text-transform: uppercase;
+
+                .val {
+                    font-style: normal;
+                    float: right;
+                }
+            }
+        }
+
+        .progress-bar-wrap {
+            height: 10px;
+            background-color: var(--cs-color-text-header-nav);
+        }
+
+        .progress-bar {
+            width: 1px;
+            height: 10px;
+            background-color: var(--cs-color-link-default);
+            transition: 0.9s;
+        }
+    }
 }
 
 // resume
