@@ -134,8 +134,7 @@
             if ($(hash).length) {
                 e.preventDefault();
                 if ($('body').hasClass('mobile-nav-active')) {
-                    $('body').removeClass('mobile-nav-active');
-                    $('#mobile-nav-toggle').toggleClass('bi-before-list bi-before-x');
+                    toggleMobileNav();
                 }
                 scrollTo(hash);
             }

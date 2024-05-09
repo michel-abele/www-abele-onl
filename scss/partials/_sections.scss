@@ -64,6 +64,10 @@ section {
                     line-height: 0;
                     color: var(--cs-color-link-default);
                 }
+
+                strong {
+                    margin-right: var(--cs-space-inner-sl);
+                }
             }
         }
     }
@@ -231,7 +235,7 @@ section {
             li {
                 margin-bottom: var(--cs-space-inner-md);
                 display: flex;
-                align-items: center;
+                align-items: start;
 
                 strong {
                     margin-right: var(--cs-space-inner-sl);
