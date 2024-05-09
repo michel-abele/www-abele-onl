@@ -11,23 +11,33 @@ switch ($request) {
         header('Location: /de');
         break;
     case 'de':
-        include '../html/de.php';
+        include '../php/de.php';
         break;
     case 'en':
-        include '../html/en.php';
+        include '../php/en.php';
         break;
     default:
-        include '../html/404.php';
+        include '../php/404.php';
         header("HTTP/1.0 404 Not Found");
         break;
 }
 
-# include the file head and foot
-include '../html/file-head.php';
-include '../html/file-foot.php';
+# include the file parts
+$page  = file_get_contents('../html/file-head.html');
+$page .= $content;
+$page .= file_get_contents('../html/file-foot.html');
 
-# build the page
-$page = $fileHead . $content . $fileFoot;
+# function: replace HTML variables
+function replaceVariables ($html, $array) {
+    foreach ($array as $key => $value) {
+        $html = str_replace('#{' . $key . '}', $value, $html);
+    }
+    return $html;
+}
+
+# replace the variables
+$page = replaceVariables($page, $var_page);
+$page = replaceVariables($page, $var_navbar);
 
 # output the page
 echo $page;

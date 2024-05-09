@@ -135,7 +135,7 @@
                 e.preventDefault();
                 if ($('body').hasClass('mobile-nav-active')) {
                     $('body').removeClass('mobile-nav-active');
-                    $('#mobile-nav-toggle').toggleClass('bi-list bi-x');
+                    $('#mobile-nav-toggle').toggleClass('bi-before-list bi-before-x');
                 }
                 scrollTo(hash);
             }
@@ -163,6 +163,7 @@
 (function() {
     'use strict';
 
+    // typed.js
     const select = ( element, all = false ) => {
         element = element.trim()
         if ( all )
@@ -189,9 +190,23 @@
         } );
     }
 
-    new PureCounter( {
+    // purecounter.js
+    const htmlElement = document.documentElement;
+    const lang = htmlElement.getAttribute('lang');
+
+    let formater;
+    if (lang === 'de') {
+        formater = 'de-DE';
+    } else if (lang === 'en') {
+        formater = 'en-US';
+    } else {
+        formater = 'en-US';
+    }
+    
+    new PureCounter({
         separator: true,
         once: false,
-        formater: 'de-DE'
-    } );
+        formater: formater
+    });
+
 })();
