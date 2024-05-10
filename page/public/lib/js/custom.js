@@ -1,5 +1,5 @@
 // jQuery module pattern
-(function() {
+(function($) {
     'use strict';
 
     // function for setting a cookie
@@ -29,11 +29,6 @@
         return null;
     };
 
-    // function for fading out the cookie notice
-    const hideCookieNotice = () => {
-        $('#cookie-notice').fadeOut();
-    };
-
     // function for initializing the cookie notice
     const initCookieNotice = () => {
         if (getCookie('cookie_notice_accepted') !== 'true') {
@@ -42,7 +37,7 @@
 
         $('#cookie-accept').on('click', function() {
             setCookie('cookie_notice_accepted', 'true', 9);
-            hideCookieNotice();
+            $('#cookie-notice').fadeOut();
         });
     };
 
@@ -123,6 +118,14 @@
             toggleMobileNav();
         });
 
+        // close mobile nav when a link is clicked
+        $('#navbar .nav-link').on('click', function() {
+            if ($('body').hasClass('mobile-nav-active')) {
+                $('body').removeClass('mobile-nav-active');
+                $('#mobile-nav-toggle').removeClass('bi-before-x').addClass('bi-before-list');
+            }
+        });
+
         // scroll events
         $(window).on('scroll', function() {
             navBarLinksActive();
@@ -130,13 +133,9 @@
         });
 
         $('.scrollto').on('click', function(e) {
-            const hash = $(this).attr('hash');
+            const hash = $(this).attr('href');
             if ($(hash).length) {
                 e.preventDefault();
-                if ($('body').hasClass('mobile-nav-active')) {
-                    $('body').removeClass('mobile-nav-active');
-                    $('#mobile-nav-toggle').removeClass('bi-before-x').addClass('bi-before-list');
-                }
                 scrollTo(hash);
             }
         });
@@ -154,7 +153,7 @@
             easing: 'ease-in-out',
             once: true,
             mirror: false
-        } )
+        })
     });
 
 })(jQuery);
@@ -166,15 +165,15 @@
     // typed.js
     const select = ( element, all = false ) => {
         element = element.trim()
-        if ( all )
+        if (all)
         {
-            return [...document.querySelectorAll( element )]
+            return [...document.querySelectorAll(element)]
         }
         else
         {
-            return document.querySelector( element )
+            return document.querySelector(element)
         }
-    }
+    };
 
     const typed = select( '.typed' )
     if (typed)
