@@ -1,6 +1,5 @@
 // default theme (light mode)
-:root,
-[data-bs-theme=light] {
+:root {
 
     // fonts
     --cs-font-family-text: #{$font-family-text};
@@ -69,14 +68,4 @@
     --cs-color-text-normal-dark: #{$color-text-normal-dark};
     --cs-color-text-heading-dark: #{$color-text-heading-dark};
     
-}
-
-// dark mode
-[data-bs-theme=dark] {
-
-    // colors dark mode
-    --cs-color-background-page: #{$color-background-page-dark};
-    --cs-color-background-section: #{$color-background-section-dark};
-    --cs-color-text-normal: #{$color-text-normal-dark};
-    --cs-color-text-heading: #{$color-text-heading-dark};
 }

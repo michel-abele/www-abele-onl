@@ -248,6 +248,10 @@ section {
                     line-height: 0;
                     color: var(--cs-color-link-default);
                 }
+
+                sup {
+                    top: 0.5rem;
+                }
             }
         }
 
