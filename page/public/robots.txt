@@ -1,0 +1,38 @@
+# Googlebot
+User-agent: Googlebot
+Disallow: /lib/
+
+# Bingbot
+User-agent: Bingbot
+Disallow: /lib/
+
+# Yahoo Slurp
+User-agent: Slurp
+Disallow: /lib/
+
+# DuckDuckBot
+User-agent: DuckDuckBot
+Disallow: /lib/
+
+# Baiduspider
+User-agent: Baiduspider
+Disallow: /lib/
+
+# YandexBot
+User-agent: Yandex
+Disallow: /lib/
+
+# Sogou Spider
+User-agent: Sogou
+Disallow: /lib/
+
+# Exabot
+User-agent: Exabot
+Disallow: /lib/
+
+# Allow all others
+User-agent: *
+Allow: /
+
+# XML sitemap
+Sitemap: https://abele.onl/sitemap.xml
